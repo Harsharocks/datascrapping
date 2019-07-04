@@ -98,7 +98,7 @@ def scrape_movies(url):
 
 def scrape_many(start=1,
                 step=50,
-                pages=10,
+                pages=40,
                 second_delay=1,
                 url_format="http://m.imdb.com/search/title?at=0&sort=num_votes,desc&start={start}"):
     """
